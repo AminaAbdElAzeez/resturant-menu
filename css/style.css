@@ -1,0 +1,131 @@
+    /* General */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    /* Resturant Section */
+    .resturant {
+        background-image: url(../images/backgroung2.avif);
+    }
+
+    .container {
+        max-width: 40%;
+        text-align: center;
+        margin: auto;
+        padding: 50px 0;
+    }
+
+    .rest-heading {
+        color: rgb(34, 139, 34);
+        text-transform: capitalize;
+        font-style: italic;
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .rest-logo {
+        margin-bottom: 15px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+
+    .contact {
+        color: brown;
+        text-transform: capitalize;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    span {
+        color: rgb(34, 139, 34);
+    }
+
+    .address {
+        margin-bottom: 15px;
+    }
+
+    .address-desc {
+        color: brown;
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+
+    .facebook {
+        margin: 15px 0;
+        display: block;
+        color: rgb(34, 139, 34);
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    
+    .desc {
+        display: block;
+        margin-bottom: 40px;
+        font-size: 20px;
+        font-weight: 650;
+        color: brown;
+        direction: rtl;
+    }
+
+    /* Menu Section */
+    .menu {
+        background-image: url(../images/backgroung2.avif);
+        direction: rtl;
+        text-align: center;
+    }
+
+    .menu-item {
+        display: inline-block;
+        margin: 40px 10px;
+    }
+
+    .menu ul > .menu-item {
+        color: rgb(9, 94, 9);
+        font-size: 30px ;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .menu ul > .menu-item > ul {
+        font-size: 17px;
+        color: #000;
+        margin-top: 15px;
+    }
+
+    .price {
+        display: inline-block;
+    }
+
+    .pic1 , .pic2 , .pic5 , .pic6{
+        width: 270px;
+        height: 270px;
+        border-radius: 15px;
+    }
+
+    .pic3 , .pic4  {
+        border-radius: 15px;
+        width: 275px;
+        height: 183px;
+    }
+
+    @media(max-width:1199px) {
+        .container {
+            max-width: 100%;
+        }
+    }
